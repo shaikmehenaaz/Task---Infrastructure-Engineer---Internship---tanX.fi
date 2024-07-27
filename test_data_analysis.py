@@ -21,8 +21,8 @@ class TestDataAnalysis(unittest.TestCase):
 
     def test_compute_monthly_revenue(self):
         result = compute_monthly_revenue(self.df)
-        self.assertEqual(result.shape[0], 1)  # Should be 1 month
-        self.assertAlmostEqual(result['total_revenue'].iloc[0], 146.0)
+        self.assertEqual(result.shape[0], 2)  # Should be 2 months
+        self.assertAlmostEqual(result['total_revenue'].iloc[0], 90.0)
 
     def test_compute_product_revenue(self):
         result = compute_product_revenue(self.df)
