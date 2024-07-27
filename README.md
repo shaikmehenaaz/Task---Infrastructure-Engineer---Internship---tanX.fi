@@ -19,6 +19,8 @@ CSV file `orders.csv` with the following columns:
 ● quantity: quantity of the product ordered
 
 
+
+
 Your task is to write a Python program that reads the data from the CSV file and performs
 the following tasks:
 
