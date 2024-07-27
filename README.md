@@ -1,6 +1,7 @@
 # Task---Infrastructure-Engineer---Internship---tanX.fi
 
 **Problem Statement**
+
 You have been given a dataset of customer orders from an online store. The data is in a
 CSV file `orders.csv` with the following columns:
 
@@ -17,8 +18,6 @@ CSV file `orders.csv` with the following columns:
 ● product_price: price of the product
 
 ● quantity: quantity of the product ordered
-
-
 
 
 Your task is to write a Python program that reads the data from the CSV file and performs
